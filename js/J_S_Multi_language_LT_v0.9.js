@@ -92,10 +92,10 @@ function changeImageByLang(lang_index){
   console.log("change image function start now");
   var tw_img1_src="images/slider_img_01_ch.jpg";
   var eng_img1_src="images/slider_img_01_en.jpg";
-  var jp_img1_src="images/slider_img_01_jp.jpg";
+  //var jp_img1_src="images/slider_img_01_jp.jpg";
 
-  //var tw_img2_src="images/slider_example_2_ch.jpg";
-  //var eng_img2_src="images/slider_example_2_en.jpg";
+  var tw_img2_src="images/slider_img_02_ch.jpg";
+  var eng_img2_src="images/slider_img_02_en.jpg";
   //var jp_img2_src="images/slider_example_2_jp.jpg";
 
   //var tw_img3_src="images/slider_example_3_tw.jpg";
@@ -105,12 +105,12 @@ function changeImageByLang(lang_index){
   switch (lang_index) {
     case 0:
         document.getElementById('slideshowImage1').src=tw_img1_src;
-      //  document.getElementById('slideshowImage2').src=tw_img2_src;
+        document.getElementById('slideshowImage2').src=tw_img2_src;
         console.log("change image to CHT version");
       break;
     case 1:
         document.getElementById('slideshowImage1').src=eng_img1_src;
-      //  document.getElementById('slideshowImage2').src=eng_img2_src;
+        document.getElementById('slideshowImage2').src=eng_img2_src;
         console.log("change image to ENG version");
       break;
     case 2:
@@ -140,7 +140,6 @@ function changeAllNavBarUIWording(arr,lang_index){
 
   document.getElementById('lang_title').innerHTML = arr[lang_index].lang_title;
   document.getElementById('lang_nav_intro').innerHTML = arr[lang_index].lang_nav_intro;
-  document.getElementById('lang_nav_contact').innerHTML = arr[lang_index].lang_nav_contact;
   document.getElementById('lang_nav_download').innerHTML = arr[lang_index].lang_nav_download;
   document.getElementById('lang_change_ch').innerHTML = arr[lang_index].lang_change_ch;
   document.getElementById('lang_change_en').innerHTML = arr[lang_index].lang_change_en;
@@ -153,10 +152,10 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_slogan').innerHTML = arr[lang_index].lang_body_slogan;
   document.getElementById('lang_body_auromask_cont').innerHTML = arr[lang_index].lang_body_auromask_cont;
   document.getElementById('lang_body_auromask_cont1').innerHTML = arr[lang_index].lang_body_auromask_cont1;
+  document.getElementById('lang_body_auromask_cont2').innerHTML = arr[lang_index].lang_body_auromask_cont2;
   document.getElementById('lang_body_auromask_red').innerHTML = arr[lang_index].lang_body_auromask_red;
   document.getElementById('lang_body_auromask_yellow').innerHTML = arr[lang_index].lang_body_auromask_yellow;
   document.getElementById('lang_body_auromask_blue').innerHTML = arr[lang_index].lang_body_auromask_blue;
-  document.getElementById('lang_body_material').innerHTML = arr[lang_index].lang_body_material;
   document.getElementById('lang_body_sixfeatures').innerHTML = arr[lang_index].lang_body_sixfeatures;
   document.getElementById('lang_body_six_icon1').innerHTML = arr[lang_index].lang_body_six_icon1;
   document.getElementById('lang_body_six_icon2').innerHTML = arr[lang_index].lang_body_six_icon2;
@@ -165,7 +164,6 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_six_icon5').innerHTML = arr[lang_index].lang_body_six_icon5;
   document.getElementById('lang_body_six_icon6').innerHTML = arr[lang_index].lang_body_six_icon6;
   document.getElementById('lang_body_certificate').innerHTML = arr[lang_index].lang_body_certificate;
-  document.getElementById('lang_body_certificate_box1').innerHTML = arr[lang_index].lang_body_certificate_box1;
   document.getElementById('lang_body_certificate_box1_cont1').innerHTML = arr[lang_index].lang_body_certificate_box1_cont1;
   document.getElementById('lang_body_certificate_box1_cont2').innerHTML = arr[lang_index].lang_body_certificate_box1_cont2;
   document.getElementById('lang_body_certificate_box1_cont3').innerHTML = arr[lang_index].lang_body_certificate_box1_cont3;
@@ -173,14 +171,6 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_certificate_box2').innerHTML = arr[lang_index].lang_body_certificate_box2;
   document.getElementById('lang_body_certificate_box2_cont1').innerHTML = arr[lang_index].lang_body_certificate_box2_cont1;
   document.getElementById('lang_body_certificate_box2_cont2').innerHTML = arr[lang_index].lang_body_certificate_box2_cont2;
-  document.getElementById('lang_body_certificate_box2_cont3').innerHTML = arr[lang_index].lang_body_certificate_box2_cont3;
-  document.getElementById('lang_body_certificate_box2_cont4').innerHTML = arr[lang_index].lang_body_certificate_box2_cont4;
-  document.getElementById('lang_body_certificate_box3').innerHTML = arr[lang_index].lang_body_certificate_box3;
-  document.getElementById('lang_body_certificate_box3_cont1').innerHTML = arr[lang_index].lang_body_certificate_box3_cont1;
-  document.getElementById('lang_body_certificate_box3_cont2').innerHTML = arr[lang_index].lang_body_certificate_box3_cont2;
-  document.getElementById('lang_body_certificate_box3_cont3').innerHTML = arr[lang_index].lang_body_certificate_box3_cont3;
-  document.getElementById('lang_body_certificate_box3_cont4').innerHTML = arr[lang_index].lang_body_certificate_box3_cont4;
-  document.getElementById('lang_body_certificate_box3_cont5').innerHTML = arr[lang_index].lang_body_certificate_box3_cont5;
   document.getElementById('lang_body_productline').innerHTML = arr[lang_index].lang_body_productline;
   document.getElementById('lang_body_pt_premium').innerHTML = arr[lang_index].lang_body_pt_premium;
   document.getElementById('lang_body_pt_premium_cont1').innerHTML = arr[lang_index].lang_body_pt_premium_cont1;
@@ -191,9 +181,6 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_pt_basicred_cont1').innerHTML = arr[lang_index].lang_body_pt_basicred_cont1;
   document.getElementById('lang_body_pt_basicyellow').innerHTML = arr[lang_index].lang_body_pt_basicyellow;
   document.getElementById('lang_body_pt_basicyellow_cont1').innerHTML = arr[lang_index].lang_body_pt_basicyellow_cont1;
-  document.getElementById('lang_body_test').innerHTML = arr[lang_index].lang_body_test;
-  document.getElementById('lang_body_test_cont').innerHTML = arr[lang_index].lang_body_test_cont;
-  document.getElementById('lang_body_test_button').innerHTML = arr[lang_index].lang_body_test_button;
   document.getElementById('lang_body_process').innerHTML = arr[lang_index].lang_body_process;
   document.getElementById('lang_body_process_one').innerHTML = arr[lang_index].lang_body_process_one;
   document.getElementById('lang_body_process_two').innerHTML = arr[lang_index].lang_body_process_two;
@@ -201,15 +188,13 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_led').innerHTML = arr[lang_index].lang_body_led;
   document.getElementById('lang_body_led_cont1').innerHTML = arr[lang_index].lang_body_led_cont1;
   document.getElementById('lang_body_led_cont2').innerHTML = arr[lang_index].lang_body_led_cont2;
+  document.getElementById('lang_body_led_cont3').innerHTML = arr[lang_index].lang_body_led_cont3;
   document.getElementById('lang_body_led_red').innerHTML = arr[lang_index].lang_body_led_red;
   document.getElementById('lang_body_led_red_cont').innerHTML = arr[lang_index].lang_body_led_red_cont;
   document.getElementById('lang_body_led_yellow').innerHTML = arr[lang_index].lang_body_led_yellow;
   document.getElementById('lang_body_led_yellow_cont').innerHTML = arr[lang_index].lang_body_led_yellow_cont;
   document.getElementById('lang_body_led_blue').innerHTML = arr[lang_index].lang_body_led_blue;
   document.getElementById('lang_body_led_blue_cont').innerHTML = arr[lang_index].lang_body_led_blue_cont;
-  document.getElementById('lang_body_contactus').innerHTML = arr[lang_index].lang_body_contactus;
-  document.getElementById('lang_body_contactus_cont').innerHTML = arr[lang_index].lang_body_contactus_cont;
-  document.getElementById('lang_body_contactus_button').innerHTML = arr[lang_index].lang_body_contactus_button;
   document.getElementById('lang_body_dowmload').innerHTML = arr[lang_index].lang_body_dowmload;
   document.getElementById('lang_body_dowmload_title').innerHTML = arr[lang_index].lang_body_dowmload_title;
   document.getElementById('lang_body_dowmload_android').innerHTML = arr[lang_index].lang_body_dowmload_android;
@@ -225,8 +210,6 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_dowmload_manual_cont').innerHTML = arr[lang_index].lang_body_dowmload_manual_cont;
   document.getElementById('lang_body_dowmload_manual_btn').innerHTML = arr[lang_index].lang_body_dowmload_manual_btn;
   document.getElementById('lang_body_spec').innerHTML = arr[lang_index].lang_body_spec;
-  document.getElementById('lang_body_spec_left_tl').innerHTML = arr[lang_index].lang_body_spec_left_tl;
-  document.getElementById('lang_body_spec_right_tl').innerHTML = arr[lang_index].lang_body_spec_right_tl;
   document.getElementById('lang_body_spec_left_cont1').innerHTML = arr[lang_index].lang_body_spec_left_cont1;
   document.getElementById('lang_body_spec_right_cont1').innerHTML = arr[lang_index].lang_body_spec_right_cont1;
   document.getElementById('lang_body_spec_left_cont2').innerHTML = arr[lang_index].lang_body_spec_left_cont2;
@@ -249,8 +232,6 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_spec_right_cont10').innerHTML = arr[lang_index].lang_body_spec_right_cont10;
   document.getElementById('lang_body_spec_left_cont11').innerHTML = arr[lang_index].lang_body_spec_left_cont11;
   document.getElementById('lang_body_spec_right_cont11').innerHTML = arr[lang_index].lang_body_spec_right_cont11;
-  document.getElementById('lang_body_faq').innerHTML = arr[lang_index].lang_body_faq;
-  document.getElementById('lang_body_faq_btn').innerHTML = arr[lang_index].lang_body_faq_btn;
   return;
 }
 

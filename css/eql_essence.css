@@ -61,6 +61,12 @@
 			color: #4a4a4a;
 			font-size: 18px;
 		}
+
+		.eng .stonee {
+			color: #4a4a4a;
+			font-size: 14px;
+		}
+
 		.content-1-3 h4 {
 			font-size: 20px;
 		}
@@ -119,6 +125,18 @@
 			font-size: 24px;
 		}
 
+		@media(max-width:768px){
+
+		  .airpolution {
+		    display: none;
+			}
+			.p1 {
+				display: none;
+			}
+		}
+
+
+
 		/*----call for realization-----*/
 
 		.callforrealization {
@@ -140,23 +158,30 @@
 /*----- Introduce product-------*/
 
 .COMEFROME_LEFT{
-  margin: 0;
+	background-image: url(../images/img_blank.jpg);
+	background-position: center center;
+	background-size: cover;
+  margin: 0 auto;
   padding-top: 40px;
   display: block;
   background-color: #FFF;
-  min-height: 350px;
+  min-height: 650px;
+	vertical-align: middle;
 }
 
 .aurotitle {
 	padding-left: 8%;
+	margin-top:40px;
 }
 
 .COMEFROME_RIGHT {
-  margin: 0;
+	background-image: url(../images/img_prettywoman2.jpg);
+	background-position: center center;
+  background-size: cover;
   padding: 0;
   display: block;
   margin: 0 auto;
-  min-height: 350px;
+  min-height: 650px;
 }
 
 	.ledintro {
@@ -173,8 +198,7 @@
 @media(max-width:768px){
 
   .COMEFROME_RIGHT{
-    min-height: 800px;
-
+    min-height: 400px;
   }
 }
 
@@ -194,7 +218,35 @@ color: #FFAFAE;
 	font-size: 30px;
 	color: #DBD9D9;
 	font-weight: bold;
-	padding-top: 100px;
+	padding: 80px 50px 0px 50px;
+}
+
+.eng .banana {
+	font-size: 30px;
+	color: #DBD9D9;
+	font-weight: bold;
+	padding: 40px 50px 0px 50px;
+}
+
+@media(max-width:1200px){
+
+  .banana {
+   font-size: 20px;
+  }
+	.eng .banana {
+   font-size: 16px;
+  }
+
+
+}
+
+
+
+@media(max-width:992px){
+
+  .banana {
+   display: none;
+  }
 }
 
 /*-----End of Introduce product-------*/
@@ -223,6 +275,23 @@ color: #FFAFAE;
 			text-align: right;
 			padding-top: 80px;
 		}
+
+		@media(max-width:992px){
+
+		  .features_app {
+		   text-align: center;;
+		  }
+		}
+		@media(max-width:768px){
+
+		  .features_app {
+		   text-align: center;;
+		  }
+		}
+
+
+
+
 		.6feature h5 {
 			margin-bottom: -5px !important;
 		}

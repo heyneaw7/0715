@@ -13,6 +13,7 @@
             html, body {
             font-family: 'Noto Sans TC', sans-serif , 微軟正黑體;
             }
+
 </style>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,9 +53,9 @@
                             <li class="active">
                                 <a href="#" data-id="intro" id="lang_nav_intro">產品介紹<span class="sr-only">(current)</span></a>
                             </li>
-                            <li>
+                            <!--  <li>
                                 <a href="#" data-id="contactus" id="lang_nav_contact">聯絡我們</a>
-                            </li>
+                            </li>--->
                             <li>
                                 <a href="#" data-id="ddownload" id="lang_nav_download">下載</a>
                             </li>
@@ -114,7 +115,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/slider_img_02_ch.jpg" alt="...">
+                    <img id="slideshowImage2" src="images/slider_img_02_ch.jpg" alt="...">
                     <div class="carousel-caption">
                         <!-- 若需要可放文字 -->
                     </div>
@@ -167,25 +168,25 @@
                     <p class="orangee" id="lang_body_auromask_cont1">在家也能享受頂級醫美級的呵護</p>
                 </div>
                 <div class="row">
-                    <p class="banana text-center">深層能量導入 • 素顏肌膚閃耀動人</p>
+                    <p class="banana text-center" id="lang_body_auromask_cont2">深層能量導入 • 素顏肌膚閃耀動人</p>
                     <div class="ledintro">
                         <div class="col-md-4 redled text-center">
                             <img src="images/led_red.png">
-                            <p class="stonee">扭轉命定肌齡<br>無懼地心引力</p>
+                            <p class="stonee" id="lang_body_auromask_red">扭轉命定肌齡<br>無懼地心引力</p>
                         </div>
                         <div class="col-md-4 yellowled text-center">
                             <img src="images/led_yellow.png">
-                            <p class="stonee">擁抱水亮肌膚<br>瓦解斑點暗沉</p>
+                            <p class="stonee" id="lang_body_auromask_yellow">擁抱水亮肌膚<br>瓦解斑點暗沉</p>
                         </div>
                         <div class="col-md-4 blueled text-center">
                             <img src="images/led_blue.png">
-                            <p class="stonee">平衡肌膚油水<br>擊退粗糙毛孔</p>
+                            <p class="stonee" id="lang_body_auromask_blue">平衡肌膚油水<br>擊退粗糙毛孔</p>
                         </div>
                     </div>
-                </div>                                                                                                                                                                                                                                                                                                                                                 
+                </div>                                                                                                                                                                                                                                                                                                                                                                                 
             </div>
             <div class="col-md-6 COMEFROME_RIGHT">
-                <img src="images/img_prettywoman2.jpg" class="img-responsive">
+                <!--  <img src="images/img_prettywoman2.jpg" class="img-responsive">-->
             </div>
             <!--  </div>
             </div> -->
@@ -375,14 +376,14 @@
             <div class="container">
                 <div class="row">
                     <div class="underlined-title">
-                        <h3>安心保證</h3>
+                        <h3 id="lang_body_certificate">安心保證</h3>
                         <hr>
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <ul class="topic">
-                            <li>Made in Taiwan</li>
-                            <li>國際知名大廠研發製造</li>
-                            <li>品質嚴格控管</li>
+                            <li id="lang_body_certificate_box1_cont1">Made in Taiwan</li>
+                            <li id="lang_body_certificate_box1_cont2">國際知名大廠研發製造</li>
+                            <li id="lang_body_certificate_box1_cont3">品質嚴格控管</li>
                             <ul class="checkbox">
                                 <li>
                                     <img src="images/img_check.png" class="imgcheck">ISO9001
@@ -401,16 +402,16 @@
                                     <!--<img src="images/rohs.png" width="50px">-->
                                 </li>
                             </ul>
-                            <li>測試認證多重保證</li>
+                            <li id="lang_body_certificate_box1_cont4">測試認證多重保證</li>
                             <ul class="checkbox">
                                 <li>
-                                    <img src="images/img_check.png" class="imgcheck">細胞毒測試
+                                    <img src="images/img_check.png" class="imgcheck" id="lang_body_certificate_box2">細胞毒測試
                                 </li>
                                 <li>
-                                    <img src="images/img_check.png" class="imgcheck">皮膚刺激測試
+                                    <img src="images/img_check.png" class="imgcheck" id="lang_body_certificate_box2_cont1">皮膚刺激測試
                                 </li>
                                 <li>
-                                    <img src="images/img_check.png" class="imgcheck">皮膚敏感測試
+                                    <img src="images/img_check.png" class="imgcheck" id="lang_body_certificate_box2_cont2">皮膚敏感測試
                                 </li>
                                 <li>
                                     <img src="images/img_check.png" class="imgcheck">NCC
@@ -489,35 +490,35 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="underlined-title">
-                            <h3>產品系列</h3>
+                            <h3 id="lang_body_productline">產品系列</h3>
                             <hr>
                         </div>
                         <div class="services-wrapper">
                             <div class="col-md-4">
-                                <p class="mask">頂級全效美肌儀</p>
+                                <p class="mask" id="lang_body_pt_premium">頂級全效美肌儀</p>
                                 <div class="mask_box">
                                     <img class="iconn" src="images/img_maskpremium.png">
-                                    <p class="bigword">一機多效．尊寵你的肌膚<br>三種模式．保養全方位</p>
+                                    <p class="bigword" id="lang_body_pt_premium_cont1">一機多效．尊寵你的肌膚<br>三種模式．保養全方位</p>
                                     <hr>
-                                    <p>M1 紅黃雙色光: 活膚喚齡|美魔女養成計畫</p>
-                                    <p>M2 紅黃藍三色光: 美顏柔膚|擁抱自然青春</p>
-                                    <p>M3 T字藍光加強- 混和肌之鑰|告別T字油光</p>
+                                    <p id="lang_body_pt_premium_cont2">M1 紅黃雙色光: 活膚喚齡|美魔女養成計畫</p>
+                                    <p id="lang_body_pt_premium_cont3">M2 紅黃藍三色光: 美顏柔膚|擁抱自然青春</p>
+                                    <p id="lang_body_pt_premium_cont4">M3 T字藍光加強- 混和肌之鑰|告別T字油光</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <p class="mask">經典紅光美肌儀</p>
+                                <p class="mask" id="lang_body_pt_basicred">經典紅光美肌儀</p>
                                 <div class="mask_box">
                                     <img class="iconn" src="images/img_maskbasic_red.png">
-                                    <p class="bigword">單一紅光．展現無齡風采<br>把地心引力變不見</p>
+                                    <p class="bigword" id="lang_body_pt_basicred_cont1">單一紅光．展現無齡風采<br>把地心引力變不見</p>
                                     <hr>
                                     <p>皺紋．細紋．鬆垮 out<br>緊緊抓住肌膚的自信心</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <p class="mask">經典黃光美肌儀</p>
+                                <p class="mask" id="lang_body_pt_basicyellow">經典黃光美肌儀</p>
                                 <div class="mask_box">
                                     <img class="iconn" src="images/img_maskbasic_yellow.png">
-                                    <p class="bigword">單一黃光．追求純淨無瑕<br>提升保養吸收力</p>
+                                    <p class="bigword" id="lang_body_pt_basicyellow_cont1">單一黃光．追求純淨無瑕<br>提升保養吸收力</p>
                                     <hr>
                                     <p>告別惱人斑點與暗沉感<br>全面啟動晶瑩剔透</p>
                                 </div>
@@ -546,26 +547,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="underlined-title">
-                            <h3>使用步驟</h3>
+                            <h3 id="lang_body_process">使用步驟</h3>
                             <hr>
                         </div>
                         <!--  <div class="services-wrapper">-->
                         <div class="col-md-4 col-xs-12 imgfix">
                             <!--  <div class="icon bg-silver"> -->
                             <img src="images/img_process01.jpg" width="300" class="img-circle">
-                            <h5>1.徹底卸妝清潔肌膚</h5>
+                            <h5 id="lang_body_process_one">1.徹底卸妝清潔肌膚</h5>
                         </div>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>-->
                         <div class="col-md-4 col-xs-12 imgfix">
                             <!--<div class="icon bg-silver">-->
                             <img src="images/img_process02.jpg" width="300" class="img-circle">
-                            <h5>2.完成日常保養程序</h5>
+                            <h5 id="lang_body_process_two">2.完成日常保養程序</h5>
                         </div>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>-->
                         <div class="col-md-4 col-xs-12 imgfix">
                             <!--<div class="icon bg-silver">-->
                             <img src="images/img_process03.jpg" width="300" class="img-circle">
-                            <h5>3.美肌儀保養開始</h5>
+                            <h5 id="lang_body_process_three">3.美肌儀保養開始</h5>
                         </div>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>-->
                     </div>
@@ -578,38 +579,38 @@
             <div>
                 <div class="row">
                     <div class="col-sm-6 col-xs-12 content pull-left">
-                        <h3>LED 光效說明</h3>
-                        <p>LED是一種低能量的可見光源, 最初由美國太空總署(NASA)證實,使用特定波長LED光照射皮膚可刺激細胞增生,以及加速傷口癒合</p>
-                        <p>國內外醫學研究及報導後續證實,LED紅光,黃光,藍光在特定波長範圍內確實對皮膚可產生不同功效</p>
-                        <p class="introled">生物刺激原理 （非侵入式, 無破壞性）</p>
+                        <h3 id="lang_body_led">LED 光效說明</h3>
+                        <p id="lang_body_led_cont1">LED是一種低能量的可見光源, 最初由美國太空總署(NASA)證實,使用特定波長LED光照射皮膚可刺激細胞增生,以及加速傷口癒合</p>
+                        <p id="lang_body_led_cont2">國內外醫學研究及報導後續證實,LED紅光,黃光,藍光在特定波長範圍內確實對皮膚可產生不同功效</p>
+                        <p class="introled" id="lang_body_led_cont3">生物刺激原理 （非侵入式, 無破壞性）</p>
                         <div class="led">
                             <div class="row">
                                 <div class="col-sm-4 col-xs-12 ledstatus_pic0">
-                                    <img src="images/led_red.png"> 紅光
+                                    <img src="images/led_red.png" id="lang_body_led_red"> 紅光
                                 </div>
                                 <div class="col-sm-8 col-xs-12">
                                     <div class="ledstatus_text">
-                                        <p>刺激膠原蛋白與彈力蛋白增生，活化纖母細胞，促進血液循環，抗發炎加速傷口癒合</p>
+                                        <p id="lang_body_led_red_cont">刺激膠原蛋白與彈力蛋白增生，活化纖母細胞，促進血液循環，抗發炎加速傷口癒合</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4 col-xs-12 ledstatus_pic0">
-                                    <img src="images/led_yellow.png"> 黃光
+                                    <img src="images/led_yellow.png" id="lang_body_led_yellow"> 黃光
                                 </div>
                                 <div class="col-sm-8 col-xs-12">
                                     <div class="ledstatus_text">
-                                        <p>促進黑色素代謝，提亮膚色，舒緩敏感肌膚，提升肌膚對保養品的吸收力</p>
+                                        <p id="lang_body_led_yellow_cont">促進黑色素代謝，提亮膚色，舒緩敏感肌膚，提升肌膚對保養品的吸收力</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4 col-xs-12 ledstatus_pic0">
-                                    <img src="images/led_blue.png"> 藍光
+                                    <img src="images/led_blue.png" id="lang_body_led_blue"> 藍光
                                 </div>
                                 <div class="col-sm-8 col-xs-12">
                                     <div class="ledstatus_text">
-                                        <p>可抑制痔瘡桿菌生長，減少皮膚皮脂腺的分泌，改善粉刺及青春痘問題</p>
+                                        <p id="lang_body_led_blue_cont">可抑制痔瘡桿菌生長，減少皮膚皮脂腺的分泌，改善粉刺及青春痘問題</p>
                                     </div>
                                 </div>
                             </div>
@@ -702,13 +703,14 @@
 
     </section>
     ---->
-<section id="contact">
-    <div id="newsletter" class="container">
-        <div id="contactus" class="title">
+<!--
+  <section id="contact">
+      <div id="newsletter" class="container">
+          <div id="contactus" class="title">
             <h2 id="lang_body_contactus">聯絡我們</h2>
             <span class="byline" id="lang_body_contactus_cont">若您有任何疑問，歡迎與我們聯繫</span>
-        </div>
-        <div class="row">
+          </div>
+          <div class="row">
             <div class="col-md-6 col-md-offset-3 wow fadeIn padding8p" data-wow-duration="1.5s" data-wow-delay="0.5s">
                 <form onsubmit="return false;">
                     <div class="half">
@@ -734,8 +736,9 @@
         </div>
     </div>
 </section>
+----->
 <!--Download-->
-<section id="load" class="DOWNLOAD">
+<section id="load" class="DOWNLOAD bg-offwhite">
     <div id="ddownload" class="container">
         <div class="underlined-title">
             <h3 id="lang_body_dowmload">下載</h3>
@@ -760,7 +763,7 @@
                     <!--<div style="border: 2px solid #FFABAB; background-color:white; border-radius:4px; min-height: 580px">-->
                     <img src="images/img_ios.png" class="img-responsive">
                     <img src="images/qrcode.ios.png" class="img-responsive">
-                    <h2 id="lang_body_dowmload_iphone">Iphone</h2>
+                    <h2 id="lang_body_dowmload_iphone">iphone</h2>
                     <p id="lang_body_dowmload_iphone_cont">支援iOS 8.4及以上版本</p>
                     <button type="button" value="order" onclick="window.open('#')" class="btn button navbar-btn btn_order" id="lang_body_dowmload_iphone_button">DOWNLOAD</button>
                 </div>
@@ -897,7 +900,7 @@
                                 <td id="lang_body_spec_right_cont7">低功率藍芽 (BLE)</td>
                             </td>
                             <tr>
-                                <td id="lang_body_spec_left_cont8">美肌儀尺寸</td>
+                                <td id="lang_body_spec_left_cont8">面膜尺寸</td>
                                 <td id="lang_body_spec_right_cont8">270mm x 204mmx15.6mm</td>
                             </td>
                             <tr>
