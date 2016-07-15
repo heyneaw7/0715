@@ -276,6 +276,10 @@ color: #FFAFAE;
 			padding-top: 80px;
 		}
 
+		.eng .noen {
+			display: none;
+		}
+
 		@media(max-width:992px){
 
 		  .features_app {
@@ -349,7 +353,7 @@ color: #FFAFAE;
 			background-color: #f1f1f1;
 			border-radius: 4px;
 		  padding: 40px 10px 10px 10px ;
-			min-height: 550px;
+			min-height: 600px;
 			margin-bottom: 20px;
 		}
 

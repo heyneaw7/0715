@@ -98,19 +98,27 @@ function changeImageByLang(lang_index){
   var eng_img2_src="images/slider_img_02_en.jpg";
   //var jp_img2_src="images/slider_example_2_jp.jpg";
 
-  //var tw_img3_src="images/slider_example_3_tw.jpg";
-//  var eng_img3_src="images/slider_example_3_eng.jpg";
-//  var jp_img3_src="images/slider_example_3_jp.jpg";
+  var tw_img3_src="images/bg_productimg.jpg";
+  var eng_img3_src="images/bg_productimg_en.jpg";
+  //var jp_img3_src="images/slider_example_3_jp.jpg";
+
+  var tw_img4_src="images/img_certification.png";
+  var eng_img4_src="images/img_certification_en.png";
+  //var jp_img4_src="images/slider_example_3_jp.jpg";
 
   switch (lang_index) {
     case 0:
         document.getElementById('slideshowImage1').src=tw_img1_src;
         document.getElementById('slideshowImage2').src=tw_img2_src;
+        document.getElementById('slideshowImage3').src=tw_img3_src;
+        document.getElementById('slideshowImage4').src=tw_img4_src;
         console.log("change image to CHT version");
       break;
     case 1:
         document.getElementById('slideshowImage1').src=eng_img1_src;
         document.getElementById('slideshowImage2').src=eng_img2_src;
+        document.getElementById('slideshowImage3').src=eng_img3_src;
+        document.getElementById('slideshowImage4').src=eng_img4_src;
         console.log("change image to ENG version");
       break;
     case 2:
