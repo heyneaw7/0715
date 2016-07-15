@@ -92,15 +92,15 @@ function changeImageByLang(lang_index){
   console.log("change image function start now");
   var tw_img1_src="images/slider_img_01_ch.jpg";
   var eng_img1_src="images/slider_img_01_en.jpg";
-  //var jp_img1_src="images/slider_img_01_jp.jpg";
+  var jp_img1_src="images/slider_img_01_jp.jpg";
 
-  //var tw_img2_src="images/slider_img_02_ch.jpg";
-//  var eng_img2_src="images/slider_img_02_en.jpg";
+  //var tw_img2_src="images/slider_example_2_ch.jpg";
+  //var eng_img2_src="images/slider_example_2_en.jpg";
   //var jp_img2_src="images/slider_example_2_jp.jpg";
 
   //var tw_img3_src="images/slider_example_3_tw.jpg";
-  //var eng_img3_src="images/slider_example_3_eng.jpg";
-  //var jp_img3_src="images/slider_example_3_jp.jpg";
+//  var eng_img3_src="images/slider_example_3_eng.jpg";
+//  var jp_img3_src="images/slider_example_3_jp.jpg";
 
   switch (lang_index) {
     case 0:
@@ -115,7 +115,7 @@ function changeImageByLang(lang_index){
       break;
     case 2:
         document.getElementById('slideshowImage1').src=jp_img1_src;
-        //document.getElementById('slideshowImage2').src=jp_img2_src;
+      //  document.getElementById('slideshowImage2').src=jp_img2_src;
         console.log("change image to JP version");
       break;
     default:
@@ -142,17 +142,17 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_nav_intro').innerHTML = arr[lang_index].lang_nav_intro;
   document.getElementById('lang_nav_contact').innerHTML = arr[lang_index].lang_nav_contact;
   document.getElementById('lang_nav_download').innerHTML = arr[lang_index].lang_nav_download;
-  document.getElementById('lang_nav_faq').innerHTML = arr[lang_index].lang_nav_faq;
-  document.getElementById('lang_nav_location').innerHTML = arr[lang_index].lang_nav_location;
+  document.getElementById('lang_change_ch').innerHTML = arr[lang_index].lang_change_ch;
+  document.getElementById('lang_change_en').innerHTML = arr[lang_index].lang_change_en;
+  document.getElementById('lang_nav_spec').innerHTML = arr[lang_index].lang_nav_spec;
   document.getElementById('lang_body_intro').innerHTML = arr[lang_index].lang_body_intro;
   document.getElementById('lang_body_intro_title').innerHTML = arr[lang_index].lang_body_intro_title;
   document.getElementById('lang_body_intro_cont1').innerHTML = arr[lang_index].lang_body_intro_cont1;
   document.getElementById('lang_body_intro_right1').innerHTML = arr[lang_index].lang_body_intro_right1;
   document.getElementById('lang_body_intro_right2').innerHTML = arr[lang_index].lang_body_intro_right2;
   document.getElementById('lang_body_slogan').innerHTML = arr[lang_index].lang_body_slogan;
-  document.getElementById('lang_body_auromask').innerHTML = arr[lang_index].lang_body_auromask;
-  document.getElementById('lang_body_auromask_name').innerHTML = arr[lang_index].lang_body_auromask_name;
   document.getElementById('lang_body_auromask_cont').innerHTML = arr[lang_index].lang_body_auromask_cont;
+  document.getElementById('lang_body_auromask_cont1').innerHTML = arr[lang_index].lang_body_auromask_cont1;
   document.getElementById('lang_body_auromask_red').innerHTML = arr[lang_index].lang_body_auromask_red;
   document.getElementById('lang_body_auromask_yellow').innerHTML = arr[lang_index].lang_body_auromask_yellow;
   document.getElementById('lang_body_auromask_blue').innerHTML = arr[lang_index].lang_body_auromask_blue;

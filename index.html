@@ -7,13 +7,12 @@
         <meta name="description" content="EQL brings you an easier and smarter lifestyle">
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link href='https://fonts.googleapis.com/css?family=Palanquin:100' rel='stylesheet' type='text/css'>
-        <title id="lang_title">EQL - essence | AURO Mask</title>
+        <title id="lang_title">EQL - essence | 極光美肌儀</title>
         <style type="text/css">
             @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css); /*思源黑*/
             html, body {
             font-family: 'Noto Sans TC', sans-serif , 微軟正黑體;
             }
-
 </style>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -60,7 +59,7 @@
                                 <a href="#" data-id="ddownload" id="lang_nav_download">下載</a>
                             </li>
                             <li>
-                                <a href="#" data-id="pspec" id="lang_nav_location">產品規格</a>
+                                <a href="#" data-id="pspec" id="lang_nav_spec">產品規格</a>
                             </li>
                             <!--  <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="lang_nav_more">更多<span class="caret"></span></a>
@@ -80,13 +79,10 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="change_dropdown_title">TW - 繁體中文<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="#" onclick="chg_lang(0)">TW - 繁體中文</a>
+                                        <a href="#" onclick="chg_lang(0)" id="lang_change_ch">TW - 繁體中文</a>
                                     </li>
                                     <li>
-                                        <a href="#" onclick="chg_lang(1)">EN - English</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" onclick="chg_lang(2)">JP - 日本語</a>
+                                        <a href="#" onclick="chg_lang(1)" id="lang_change_en">EN - 英文</a>
                                     </li>
                                 </ul>
                             </li>
@@ -167,24 +163,26 @@
                 <div class="row">-->
             <div class="col-md-6 COMEFROME_LEFT">
                 <div class="aurotitle">
-                    <h1>極光美肌儀把空汙危肌變不見</h1>
-                    <p class="orangee">在家也能享受頂級醫美級的呵護</p>
-                    <p class="banana">深層能量導入 • 素顏肌膚閃耀動人</p>
+                    <h1 id="lang_body_auromask_cont">極光美肌儀把空汙危肌變不見</h1>
+                    <p class="orangee" id="lang_body_auromask_cont1">在家也能享受頂級醫美級的呵護</p>
                 </div>
-                <div class="row ledintro">
-                    <div class="col-md-4 redled text-center">
-                        <img src="images/led_red.png">
-                        <p class="stonee">扭轉命定肌齡<br>無懼地心引力</p>
+                <div class="row">
+                    <p class="banana text-center">深層能量導入 • 素顏肌膚閃耀動人</p>
+                    <div class="ledintro">
+                        <div class="col-md-4 redled text-center">
+                            <img src="images/led_red.png">
+                            <p class="stonee">扭轉命定肌齡<br>無懼地心引力</p>
+                        </div>
+                        <div class="col-md-4 yellowled text-center">
+                            <img src="images/led_yellow.png">
+                            <p class="stonee">擁抱水亮肌膚<br>瓦解斑點暗沉</p>
+                        </div>
+                        <div class="col-md-4 blueled text-center">
+                            <img src="images/led_blue.png">
+                            <p class="stonee">平衡肌膚油水<br>擊退粗糙毛孔</p>
+                        </div>
                     </div>
-                    <div class="col-md-4 yellowled text-center">
-                        <img src="images/led_yellow.png">
-                        <p class="stonee">擁抱水亮肌膚<br>瓦解斑點暗沉</p>
-                    </div>
-                    <div class="col-md-4 blueled text-center">
-                        <img src="images/led_blue.png">
-                        <p class="stonee">平衡肌膚油水<br>擊退粗糙毛孔</p>
-                    </div>
-                </div>                                                                                                                                                                                                                                                                                                 
+                </div>                                                                                                                                                                                                                                                                                                                                                 
             </div>
             <div class="col-md-6 COMEFROME_RIGHT">
                 <img src="images/img_prettywoman2.jpg" class="img-responsive">
@@ -296,27 +294,33 @@
                             </div>
                             <div class="col-md-4">
                                 <img class="icon text-center" src="images/icon_001.png">
-                                <h5 class="6feature" id="lang_body_six_icon1">走到哪用到哪</h5>
+                                <h5 class="6feature" id="lang_body_six_icon1">操作簡單</h5>
+                                <p>設定簡易 輕鬆上手</p>
                             </div>
                             <div class="col-md-4">
                                 <img class="icon" src="images/icon_002.png">
                                 <h5 class="6feature" id="lang_body_six_icon2">布面貼合矽膠設計</h5>
+                                <p>獨創設計 嚴選材質</p>
                             </div>
                             <div class="col-md-4">
                                 <img class="icon" src="images/icon_003.png">
                                 <h5 class="6feature" id="lang_body_six_icon3">可重複使用</h5>
+                                <p>充電電池 搭載低耗電BLE</p>
                             </div>
                             <div class="col-md-4">
                                 <img class="icon" src="images/icon_004.png">
                                 <h5 class="6feature" id="lang_body_six_icon4">安全自動斷電裝置</h5>
+                                <p margin-bottom:0>高科技偵測 自動斷電技術</p>
                             </div>
                             <div class="col-md-4">
                                 <img class="icon" src="images/icon_005.png">
                                 <h5 class="6feature" id="lang_body_six_icon5">一機多效</h5>
+                                <p>三種模式 全面保養</p>
                             </div>
                             <div class="col-md-4">
                                 <img class="icon" src="images/icon_006.png">
                                 <h5 class="6feature" id="lang_body_six_icon6">APP智慧管理</h5>
+                                <p>免費下載 護膚更便利</p>
                             </div>
                         </div>
                     </div>
