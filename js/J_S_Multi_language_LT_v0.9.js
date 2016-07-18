@@ -107,7 +107,7 @@ function changeImageByLang(lang_index){
   //var jp_img4_src="images/slider_example_4_jp.jpg";
 
   var tw_img5_src="images/img_skin.png";
-  var eng_img5_src="images/img_skin_en.png";
+  var eng_img5_src="images/img_skin_en.jpg";
   //var jp_img4_src="images/slider_example_4_jp.jpg";
 
 
