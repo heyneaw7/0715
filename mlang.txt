@@ -81,7 +81,7 @@
       "lang_body_spec_left_cont4": "輸出電壓",
       "lang_body_spec_right_cont4": "DC 5V/2A",
       "lang_body_spec_left_cont5": "電池續航力",
-      "lang_body_spec_right_cont5": "充飽電可使用約150分鐘",
+      "lang_body_spec_right_cont5": "充飽電可使用約60分鐘",
       "lang_body_spec_left_cont6": "體感溫度",
       "lang_body_spec_right_cont6": "37 °C +/ - 2 °C",
       "lang_body_spec_left_cont7": "無線功能",
