@@ -104,7 +104,15 @@ function changeImageByLang(lang_index){
 
   var tw_img4_src="images/img_certification.png";
   var eng_img4_src="images/img_certification_en.png";
-  //var jp_img4_src="images/slider_example_3_jp.jpg";
+  //var jp_img4_src="images/slider_example_4_jp.jpg";
+
+  var tw_img5_src="images/img_skin.png";
+  var eng_img5_src="images/img_skin_en.png";
+  //var jp_img4_src="images/slider_example_4_jp.jpg";
+
+
+
+
 
   switch (lang_index) {
     case 0:
@@ -112,6 +120,7 @@ function changeImageByLang(lang_index){
         document.getElementById('slideshowImage2').src=tw_img2_src;
         document.getElementById('slideshowImage3').src=tw_img3_src;
         document.getElementById('slideshowImage4').src=tw_img4_src;
+        document.getElementById('slideshowImage5').src=tw_img5_src;
         console.log("change image to CHT version");
       break;
     case 1:
@@ -119,6 +128,7 @@ function changeImageByLang(lang_index){
         document.getElementById('slideshowImage2').src=eng_img2_src;
         document.getElementById('slideshowImage3').src=eng_img3_src;
         document.getElementById('slideshowImage4').src=eng_img4_src;
+        document.getElementById('slideshowImage5').src=eng_img5_src;
         console.log("change image to ENG version");
       break;
     case 2:
