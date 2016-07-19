@@ -214,6 +214,9 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_body_led_yellow_cont').innerHTML = arr[lang_index].lang_body_led_yellow_cont;
   document.getElementById('lang_body_led_blue').innerHTML = arr[lang_index].lang_body_led_blue;
   document.getElementById('lang_body_led_blue_cont').innerHTML = arr[lang_index].lang_body_led_blue_cont;
+  document.getElementById('lang_body_contactus').innerHTML = arr[lang_index].lang_body_contactus;
+  document.getElementById('lang_body_contactus_cont').innerHTML = arr[lang_index].lang_body_contactus_cont;
+  document.getElementById('lang_body_contactus_button').innerHTML = arr[lang_index].lang_body_contactus_button;
   document.getElementById('lang_body_dowmload').innerHTML = arr[lang_index].lang_body_dowmload;
   document.getElementById('lang_body_dowmload_title').innerHTML = arr[lang_index].lang_body_dowmload_title;
   document.getElementById('lang_body_dowmload_android').innerHTML = arr[lang_index].lang_body_dowmload_android;
