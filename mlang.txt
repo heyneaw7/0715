@@ -2,7 +2,7 @@
    {
       "lang_title": "EQL - essence | 極光美肌儀",
       "lang_nav_intro": "產品介紹",
-      "lang_nav_contact": "聯絡我們",
+      "lang_nav_contact": "與我們聯絡",
       "lang_nav_download": "下載",
       "lang_nav_spec": "產品規格",
       "lang_change_ch": "TW - 繁體中文",
