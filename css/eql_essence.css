@@ -188,7 +188,7 @@
 }
 
 .COMEFROME_RIGHT {
-	background-image: url(../images/img_prettywoman2.jpg);
+	background-image: url(../images/img_prettywoman03.jpg);
 	background-position: center center;
   background-size: cover;
   padding: 0;
@@ -414,7 +414,6 @@ padding-bottom: 60px;
 padding-top: 5px;
 padding-bottom: 5px;
 text-align: center;
-display: inline-block;
 }
 
 .ledstatus_text{
@@ -622,10 +621,9 @@ margin: 0 auto;
 width: auto;
 height: auto;
 display: block;
-background-color: grey;
-background-image: url(../images/spec_bg.jpg);
+/*background-image: url(../images/spec_bg.jpg);
 background-position: right bottom;;
-background-size: cover;
+background-size: cover;*/
 padding-top: 60px;
 padding-bottom: 100px;
 }
@@ -646,7 +644,6 @@ padding-bottom: 100px;
 }
 .SPEC_BG th{
 font-weight: bolder;
-
 }
 
 
