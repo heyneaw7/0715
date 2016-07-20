@@ -77,7 +77,7 @@
       "lang_body_dowmload_manual_btn": "DOWNLOAD",
       "lang_body_spec": "產品規格",
       "lang_body_spec_left_cont1": "LED燈數",
-      "lang_body_spec_right_cont1": "經典: 紅光-90顆 or 黃光-90顆 頂級: 紅光-90顆+黃光-45顆+藍光-57顆 (總共147顆)",
+      "lang_body_spec_right_cont1": "經典: 紅光-90顆 or 黃光-90顆<br>頂級: 紅光-45顆+黃光-45顆+藍光-57顆 (總共147顆)",
       "lang_body_spec_left_cont2": "輸入電壓",
       "lang_body_spec_right_cont2": "AC 100-240V",
       "lang_body_spec_left_cont3": "輸入頻率",
